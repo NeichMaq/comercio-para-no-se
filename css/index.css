@@ -1,0 +1,32 @@
+.pequeñacaja {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    }
+    
+    .bienvenida { grid-area: 1 / 1 / 3 / 4; }
+    .coso1 { grid-area: 3 / 1 / 4 / 2; }
+    .coso2 { grid-area: 3 / 2 / 4 / 3; }
+    .coso3 { grid-area: 3 / 3 / 4 / 4; }
+
+.grancaja{
+    padding: 0%;
+}
+
+.pequeñacaja div{
+    background-color: rgba(240, 248, 255, 0.76);
+    text-align: center;
+}
+.pequeñacaja{
+    margin:0px auto;
+    height: 40%;
+    width: 40%;
+    margin-top: 10%;
+}
+.grancaja{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
